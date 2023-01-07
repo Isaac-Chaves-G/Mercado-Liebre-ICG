@@ -11,7 +11,7 @@ const port = process.env.PORT || 3066;
 app.listen (port, () =>
 console.log('Servidor corriendo en el puerto $(port)'));
 
-app.get("/home", (req, res) =>{
+app.get("/", (req, res) =>{
     let htmlPath = path.resolve(__dirname,"./views/home.html")
     res.sendFile(htmlPath)
 }) 
