@@ -1,0 +1,16 @@
+{
+  "name": "proyecto-en-playground",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon proyecto en playground/app.js",
+    "start": "node proyecto en playground/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "description": ""
+}
