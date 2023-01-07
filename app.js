@@ -7,7 +7,7 @@ const publicFolderPath = path.resolve (__dirname, "./public");
 app.use ( express.static (publicFolderPath))
 
 //Levantar nuestro servidor
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 3066;
 app.listen (port, () =>
 console.log('Servidor corriendo en el puerto $(port)'));
 
