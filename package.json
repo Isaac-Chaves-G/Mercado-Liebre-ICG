@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "dev": "nodemon proyecto en playground/app.js",
-    "start": "node proyecto en playground/app.js"
+    "dev": "nodemon proyecto/app.js",
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
