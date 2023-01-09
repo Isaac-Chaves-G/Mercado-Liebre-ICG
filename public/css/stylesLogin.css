@@ -1,0 +1,155 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+
+}
+
+div input, button{
+   width: 300px;  
+}
+div input{
+    border-radius: 4px;
+    font-size: 12px;
+}
+div.top-header{
+    padding: 5%;
+
+}
+
+header{
+    background-color: #EAC926;
+
+}
+header div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+header div.logo{
+    width: 50%;
+    padding: 10px;
+}
+
+header nav{
+    font-size: 12px;
+    display: none;
+    margin-left: 3vw;
+    align-items: center;
+
+
+}
+
+header ul li{
+    list-style-type: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+header .form .input{
+    background-color: #FFF;
+    border: 1px solid #000;
+    outline: none;
+    color: #666;
+    padding: 2px;
+    width: 50%;
+}
+header .form .submit{
+    background-color: #FFF;
+    border: 1px solid #000;
+    color: #666;
+    margin: 5px;
+
+
+}
+
+header div.top-header p{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+div.burger-menu{
+    display: block;
+    text-align: center;
+}
+
+div.burger-menu i{
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
+
+}
+p{
+    font-size: 12px;
+}
+
+.user, .boton, .pass{
+    padding: 4px;
+    border-radius: 5px;
+    border-color: #FFF;
+    margin-left: 15px;
+    margin-bottom:5px;
+    margin-top: 40px;
+
+
+}
+
+
+.boton{ 
+    background-color: #0044AA;
+    color:#FFF;
+
+}
+.logeo{
+    text-align: center;
+    padding: 4px;
+    border-radius: 5px;
+    border-color: #FFF;
+
+
+
+}
+
+@media (min-width: 361px){
+
+
+
+    header nav{
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    div.burger-menu{
+        display: none;
+     }
+     header nav ul{
+        display: flex;
+        justify-content: space-around;
+
+    }
+    header nav ul li{
+        margin: 8px;
+    }
+
+}
+
+@media (min-width: 769px){
+.boton:hover{
+    background-color:#0022AA ;
+}
+}
